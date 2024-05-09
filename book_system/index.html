@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="UTF-8">
+        <title>myLibraly</title>
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <h1 class="h1">
+            <span>BookShelf</span>
+            MY LIBRARY
+        </h1>
+        <div id="totalBooks">本の所持数：　0</div>
+        <div id="addTitleForm">
+            <input type="text" id="addTitleInput" placeholder="本のタイトルを入力してください">
+            <button id="addTitleButton">追加</button>
+        </div>
+        <div id="addAuthorForm" style="display: flex;">
+            <input type="text" id="addAuthorInput" placeholder="本の著者名を入力してください" style="display: none">
+            <button id="addAuthorButton" style="display: none">追加</button>
+        </div>
+        <div id="removeForm">
+                <input type="text" id="removeInput" placeholder="本のタイトルを入力してください">
+                <button id="removeButton">削除</button>
+        </div>
+        <div id="searchForm">
+            <input type="text" id="searchTitleInput" placeholder="本のタイトルを入力してください">
+            <input type="text" id="searchAuthorInput" placeholder="著者名を入力してください">
+            <button id="searchButton">検索</button>
+        </div>
+        <ul id="bookList">
+            <!-検索結果がここにリスト表示されます->
+        </ul>
+        <img id="characterImage" src="character.png" alt="システムの管理人">
+    </body>
+</html>

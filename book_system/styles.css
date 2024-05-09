@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #title {
+    font-size: 2em;
+    color: #333;
+    margin-top: 20px;
+  }
+
+    .h1 {
+    font-size: 26px;
+    line-height: 1;
+    }
+    .h1 span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    }
+  
+  #totalBooks {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  #addTitleForm {
+    margin-top: 20px;
+  }
+
+  #searchForm {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #searchInput {
+    width: 300px;
+    font-size: 1em;
+    padding: 5px;
+  }
+  
+  #searchButton {
+    font-size: 1em;
+    background-color: bisque;
+    color: #333;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  #searchTitleInput {
+    width: 300px;
+    margin-right: 20px;
+  }  
+
+  #bookList {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  #addTitleInput {
+    width: 300px;
+  }
+
+
+  #addAuthorInput {
+    width: 300px;
+  }
+  
+  #removeInput {
+    width: 300px;
+  }
+  
+  #characterImage {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 395px;
+    height: 489px;
+  }
+  
